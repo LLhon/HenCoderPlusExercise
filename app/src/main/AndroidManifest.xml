@@ -17,6 +17,7 @@
       </intent-filter>
     </activity>
     <activity android:name=".activity.DashBoardActivity"/>
+    <activity android:name=".activity.PieChartViewActivity"/>
   </application>
 
 </manifest>
