@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
-import com.logcat.hencoderplusexercise.utils.px
+import com.logcat.hencoderplusexercise.utils.dp
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -19,13 +19,13 @@ const val OPEN_ANGLE = 120f
 class DashBoardView(context: Context, attr: AttributeSet?) : View(context, attr) {
 
     //圆的半径
-    private val RADIUS = 150f.px
+    private val RADIUS = 150.dp
     //指针长度
-    private val POINTER_LENGTH = 120f.px
+    private val POINTER_LENGTH = 120.dp
     //刻度宽度
-    private val DASH_WIDTH = 3f.px
+    private val DASH_WIDTH = 3f.dp
     //刻度长度
-    private val DASH_LENGTH = 10f.px
+    private val DASH_LENGTH = 10.dp
     //自定义刻度数量
     private val DASH_COUNT = 20f
     //自定义当前指针位置
@@ -36,7 +36,7 @@ class DashBoardView(context: Context, attr: AttributeSet?) : View(context, attr)
     private lateinit var mPathEffect: PathDashPathEffect
 
     init {
-        mPaint.strokeWidth = 5f.px
+        mPaint.strokeWidth = 5f.dp
         mPaint.style = Paint.Style.STROKE
     }
 

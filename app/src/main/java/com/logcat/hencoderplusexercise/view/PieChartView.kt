@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.ContextMenu
 import android.view.View
-import com.logcat.hencoderplusexercise.utils.px
+import com.logcat.hencoderplusexercise.utils.dp
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -18,7 +18,7 @@ import kotlin.math.sin
 class PieChartView(context: Context, attr: AttributeSet?) : View(context, attr) {
 
     //圆的半径
-    private val RADIUS = 150f.px
+    private val RADIUS = 150.dp
     private var mPaint = Paint(Paint.ANTI_ALIAS_FLAG)
     //自定义扇形角度
     private val ANGLES = floatArrayOf(60f, 90f, 150f, 60f)
@@ -26,7 +26,7 @@ class PieChartView(context: Context, attr: AttributeSet?) : View(context, attr) 
     private val COLORS = listOf(Color.parseColor("#FF6E40"), Color.parseColor("#2979FF"),
         Color.parseColor("#AA00FF"), Color.parseColor("#00796B"))
     //扇形偏移距离
-    private val OFFSET_LENGTH = 20f.px
+    private val OFFSET_LENGTH = 20.dp
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
 
