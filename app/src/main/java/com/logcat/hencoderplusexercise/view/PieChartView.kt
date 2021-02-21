@@ -23,8 +23,8 @@ class PieChartView(context: Context, attr: AttributeSet?) : View(context, attr) 
     //自定义扇形角度
     private val ANGLES = floatArrayOf(60f, 90f, 150f, 60f)
     //自定义扇形颜色
-    private val COLORS = listOf(Color.parseColor("#FF6E40"), Color.parseColor("#2979FF"),
-        Color.parseColor("#AA00FF"), Color.parseColor("#00796B"))
+    private val COLORS = listOf(Color.parseColor("#FF6E40"), Color.parseColor("#1E88E5"),
+        Color.parseColor("#D81B60"), Color.parseColor("#00796B"))
     //扇形偏移距离
     private val OFFSET_LENGTH = 20.dp
 
