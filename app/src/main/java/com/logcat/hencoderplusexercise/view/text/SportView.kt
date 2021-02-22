@@ -12,7 +12,7 @@ import com.logcat.hencoderplusexercise.R
 import com.logcat.hencoderplusexercise.utils.dp
 
 /**
- *
+ * 圆环进度条以及文字
  * Created by LLhon
  */
 class SportView(context: Context, attr: AttributeSet) : View(context, attr) {

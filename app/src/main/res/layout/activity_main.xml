@@ -43,6 +43,24 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Xfermode" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字测量-圆环进度条" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字测量-图文混排" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xfermode" />
   </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

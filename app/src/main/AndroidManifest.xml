@@ -19,6 +19,8 @@
     <activity android:name=".activity.DashBoardActivity"/>
     <activity android:name=".activity.PieChartViewActivity"/>
     <activity android:name=".activity.AvatarViewActivity"/>
+    <activity android:name=".activity.SportViewActivity"/>
+    <activity android:name=".activity.MultilineTextActivity"/>
   </application>
 
 </manifest>

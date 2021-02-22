@@ -3,9 +3,7 @@ package com.logcat.hencoderplusexercise
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.logcat.hencoderplusexercise.activity.AvatarViewActivity
-import com.logcat.hencoderplusexercise.activity.DashBoardActivity
-import com.logcat.hencoderplusexercise.activity.PieChartViewActivity
+import com.logcat.hencoderplusexercise.activity.*
 import com.logcat.hencoderplusexercise.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +23,15 @@ class MainActivity : AppCompatActivity() {
         }
         mBinding.button3.setOnClickListener {
             startActivity(Intent(this, AvatarViewActivity::class.java))
+        }
+        mBinding.button4.setOnClickListener {
+
+        }
+        mBinding.button5.setOnClickListener {
+            startActivity(Intent(this, SportViewActivity::class.java))
+        }
+        mBinding.button6.setOnClickListener {
+            startActivity(Intent(this, MultilineTextActivity::class.java))
         }
     }
 }
