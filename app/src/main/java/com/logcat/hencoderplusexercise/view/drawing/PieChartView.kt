@@ -1,11 +1,10 @@
-package com.logcat.hencoderplusexercise.view
+package com.logcat.hencoderplusexercise.view.drawing
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.util.AttributeSet
-import android.view.ContextMenu
 import android.view.View
 import com.logcat.hencoderplusexercise.utils.dp
 import kotlin.math.cos

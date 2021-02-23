@@ -1,4 +1,4 @@
-package com.logcat.hencoderplusexercise.view
+package com.logcat.hencoderplusexercise.view.drawing
 
 import android.content.Context
 import android.graphics.*

@@ -33,5 +33,8 @@ class MainActivity : AppCompatActivity() {
         mBinding.button6.setOnClickListener {
             startActivity(Intent(this, MultilineTextActivity::class.java))
         }
+        mBinding.button7.setOnClickListener {
+            startActivity(Intent(this, CameraViewActivity::class.java))
+        }
     }
 }
