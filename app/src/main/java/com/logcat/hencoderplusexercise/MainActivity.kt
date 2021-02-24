@@ -36,5 +36,11 @@ class MainActivity : AppCompatActivity() {
         mBinding.button7.setOnClickListener {
             startActivity(Intent(this, CameraViewActivity::class.java))
         }
+        mBinding.button8.setOnClickListener {
+            startActivity(Intent(this, CircleViewActivity::class.java))
+        }
+        mBinding.button9.setOnClickListener {
+            startActivity(Intent(this, PointFViewActivity::class.java))
+        }
     }
 }

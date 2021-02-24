@@ -22,6 +22,8 @@
     <activity android:name=".activity.SportViewActivity"/>
     <activity android:name=".activity.MultilineTextActivity"/>
     <activity android:name=".activity.CameraViewActivity"/>
+    <activity android:name=".activity.CircleViewActivity"/>
+    <activity android:name=".activity.PointFViewActivity"/>
   </application>
 
 </manifest>
