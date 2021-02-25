@@ -1,5 +1,6 @@
 package com.logcat.hencoderplusexercise.activity
 
+import android.animation.Keyframe
 import android.animation.ObjectAnimator
 import android.animation.TypeEvaluator
 import android.graphics.PointF
@@ -22,9 +23,10 @@ class PointFViewActivity : AppCompatActivity() {
         setContentView(mBinding.root)
 
         val animator = ObjectAnimator.ofObject(mBinding.pointFView, "point",
-            PointEvaluator(), PointF(20.dp, 20.dp), PointF(100.dp, 200.dp))
-        animator.startDelay = 500
-        animator.duration = 1500
+            PointEvaluator(), PointF(20.dp, 20.dp), PointF(60.dp, 60.dp), PointF(120.dp, 120.dp),
+            PointF(180.dp, 60.dp), PointF(240.dp, 20.dp))
+        animator.startDelay = 1000
+        animator.duration = 2000
         animator.start()
     }
 

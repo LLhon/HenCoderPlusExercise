@@ -19,7 +19,7 @@ class PointFView(context: Context, attr: AttributeSet) : View(context, attr) {
         strokeWidth = 20.dp
         strokeCap = Paint.Cap.ROUND
     }
-    private var point = PointF(0f, 0f)
+    var point = PointF(0f, 0f)
         set(value) {
             field = value
             invalidate()

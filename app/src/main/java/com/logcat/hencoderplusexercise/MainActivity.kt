@@ -42,5 +42,11 @@ class MainActivity : AppCompatActivity() {
         mBinding.button9.setOnClickListener {
             startActivity(Intent(this, PointFViewActivity::class.java))
         }
+        mBinding.button10.setOnClickListener {
+            startActivity(Intent(this, AnimCameraViewActivity::class.java))
+        }
+        mBinding.button11.setOnClickListener {
+            startActivity(Intent(this, ProvinceViewActivity::class.java))
+        }
     }
 }
