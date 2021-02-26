@@ -48,5 +48,8 @@ class MainActivity : AppCompatActivity() {
         mBinding.button11.setOnClickListener {
             startActivity(Intent(this, ProvinceViewActivity::class.java))
         }
+        mBinding.button12.setOnClickListener {
+            startActivity(Intent(this, MeshDrawableActivity::class.java))
+        }
     }
 }

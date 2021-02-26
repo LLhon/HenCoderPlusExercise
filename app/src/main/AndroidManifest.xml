@@ -26,6 +26,7 @@
     <activity android:name=".activity.PointFViewActivity"/>
     <activity android:name=".activity.AnimCameraViewActivity"/>
     <activity android:name=".activity.ProvinceViewActivity"/>
+    <activity android:name=".activity.MeshDrawableActivity"/>
   </application>
 
 </manifest>
