@@ -27,6 +27,7 @@
     <activity android:name=".activity.AnimCameraViewActivity"/>
     <activity android:name=".activity.ProvinceViewActivity"/>
     <activity android:name=".activity.MeshDrawableActivity"/>
+    <activity android:name=".activity.MaterialEditTextActivity"/>
   </application>
 
 </manifest>

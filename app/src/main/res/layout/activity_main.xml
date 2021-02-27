@@ -92,6 +92,12 @@
         android:layout_height="wrap_content"
         android:text="自定义Drawable-MeshDrawable" />
 
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手写MaterialEditText" />
+
   </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

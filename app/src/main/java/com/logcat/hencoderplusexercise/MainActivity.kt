@@ -51,5 +51,8 @@ class MainActivity : AppCompatActivity() {
         mBinding.button12.setOnClickListener {
             startActivity(Intent(this, MeshDrawableActivity::class.java))
         }
+        mBinding.button13.setOnClickListener {
+            startActivity(Intent(this, MaterialEditTextActivity::class.java))
+        }
     }
 }
