@@ -49,16 +49,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ProvinceViewActivity::class.java))
         }
         mBinding.button12.setOnClickListener {
-            startActivity(Intent(this, SquareActivity::class.java))
-        }
-        mBinding.button13.setOnClickListener {
-            startActivity(Intent(this, CircleActivity::class.java))
-        }
-        mBinding.button12.setOnClickListener {
             startActivity(Intent(this, MeshDrawableActivity::class.java))
         }
         mBinding.button13.setOnClickListener {
             startActivity(Intent(this, MaterialEditTextActivity::class.java))
+        }
+        mBinding.button14.setOnClickListener {
+            startActivity(Intent(this, SquareActivity::class.java))
+        }
+        mBinding.button15.setOnClickListener {
+            startActivity(Intent(this, CircleActivity::class.java))
         }
     }
 }
