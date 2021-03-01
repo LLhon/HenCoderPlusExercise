@@ -66,25 +66,37 @@
         android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Animation-ObjectAnimator" />
+        android:text="属性动画-ObjectAnimator" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Animation-Evaluator" />
+        android:text="属性动画-Evaluator" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Animation-翻折View" />
+        android:text="属性动画-翻折View" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Animation-Evaluator2" />
+        android:text="属性动画-Evaluator2" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Drawable-MeshDrawable" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手写MaterialEditText" />
 
     <Button
       android:id="@+id/button12"
