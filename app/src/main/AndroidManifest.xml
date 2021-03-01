@@ -26,6 +26,8 @@
     <activity android:name=".activity.PointFViewActivity"/>
     <activity android:name=".activity.AnimCameraViewActivity"/>
     <activity android:name=".activity.ProvinceViewActivity"/>
+    <activity android:name=".activity.SquareActivity"/>
+    <activity android:name=".activity.CircleActivity"/>
   </application>
 
 </manifest>

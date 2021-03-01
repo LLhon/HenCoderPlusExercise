@@ -86,6 +86,18 @@
         android:layout_height="wrap_content"
         android:text="Animation-Evaluator2" />
 
+    <Button
+      android:id="@+id/button12"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义布局之SquareImageView" />
+
+    <Button
+      android:id="@+id/button13"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义布局之CircleView" />
+
   </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

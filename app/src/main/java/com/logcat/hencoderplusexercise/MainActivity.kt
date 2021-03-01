@@ -48,5 +48,11 @@ class MainActivity : AppCompatActivity() {
         mBinding.button11.setOnClickListener {
             startActivity(Intent(this, ProvinceViewActivity::class.java))
         }
+        mBinding.button12.setOnClickListener {
+            startActivity(Intent(this, SquareActivity::class.java))
+        }
+        mBinding.button13.setOnClickListener {
+            startActivity(Intent(this, CircleActivity::class.java))
+        }
     }
 }
