@@ -30,6 +30,7 @@
     <activity android:name=".activity.MaterialEditTextActivity"/>
     <activity android:name=".activity.SquareActivity"/>
     <activity android:name=".activity.CircleActivity"/>
+    <activity android:name=".activity.TagLayoutActivity"/>
   </application>
 
 </manifest>

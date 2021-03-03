@@ -106,6 +106,12 @@
       android:layout_height="wrap_content"
       android:text="自定义布局之CircleView" />
 
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义布局之TagLayout" />
+
   </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

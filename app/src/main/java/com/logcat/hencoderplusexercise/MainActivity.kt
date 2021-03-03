@@ -60,5 +60,8 @@ class MainActivity : AppCompatActivity() {
         mBinding.button15.setOnClickListener {
             startActivity(Intent(this, CircleActivity::class.java))
         }
+        mBinding.button16.setOnClickListener {
+            startActivity(Intent(this, TagLayoutActivity::class.java))
+        }
     }
 }
