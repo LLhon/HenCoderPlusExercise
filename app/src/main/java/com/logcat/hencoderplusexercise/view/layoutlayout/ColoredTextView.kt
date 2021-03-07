@@ -23,7 +23,7 @@ private val COLORS = intArrayOf(
     Color.parseColor("#FF8BC34A"),
     Color.parseColor("#FF6200EE"),
     Color.parseColor("#FF018786"),
-    Color.parseColor("#FF4CAF50")
+    Color.parseColor("#FF9E80")
 )
 private val CORNER_RADIUS = 6.dp
 private val LEFT_PADDING = 10.dp
