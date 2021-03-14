@@ -63,5 +63,8 @@ class MainActivity : AppCompatActivity() {
         mBinding.button16.setOnClickListener {
             startActivity(Intent(this, TagLayoutActivity::class.java))
         }
+        mBinding.button17.setOnClickListener {
+            startActivity(Intent(this, ScalableViewActivity::class.java))
+        }
     }
 }

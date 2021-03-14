@@ -112,6 +112,12 @@
         android:layout_height="wrap_content"
         android:text="自定义布局之TagLayout" />
 
+    <Button
+      android:id="@+id/button17"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义触摸反馈之ScalableImageView" />
+
   </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

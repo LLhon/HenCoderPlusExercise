@@ -31,6 +31,7 @@
     <activity android:name=".activity.SquareActivity"/>
     <activity android:name=".activity.CircleActivity"/>
     <activity android:name=".activity.TagLayoutActivity"/>
+    <activity android:name=".activity.ScalableViewActivity"/>
   </application>
 
 </manifest>
