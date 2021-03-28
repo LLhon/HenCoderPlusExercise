@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.logcat.hencoderplusexercise.view.drag.DragHelperGridView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/F44336"/>
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"/>
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/ff2196F3"/>
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/FFEB3B"/>
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/FF4CAF50"/>
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_500"/>
+
+</com.logcat.hencoderplusexercise.view.drag.DragHelperGridView>

@@ -32,6 +32,12 @@
     <activity android:name=".activity.CircleActivity"/>
     <activity android:name=".activity.TagLayoutActivity"/>
     <activity android:name=".activity.ScalableViewActivity"/>
+    <activity android:name=".activity.MultiTouchView1Activity"/>
+    <activity android:name=".activity.DragListenerActivity"/>
+    <activity android:name=".activity.ViewDragHelperActivity"/>
+    <activity android:name=".activity.ConstraintListActivity"/>
+    <activity android:name=".constraintlayout.CircularRevealActivity"/>
+    <activity android:name=".constraintlayout.CircularPositioningActivity"/>
   </application>
 
 </manifest>

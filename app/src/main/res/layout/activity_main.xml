@@ -118,6 +118,30 @@
       android:layout_height="wrap_content"
       android:text="自定义触摸反馈之ScalableImageView" />
 
+    <Button
+      android:id="@+id/button18"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义触摸反馈之多点触控接力型" />
+
+    <Button
+      android:id="@+id/button19"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义触摸反馈之拖拽1" />
+
+    <Button
+      android:id="@+id/button20"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义触摸反馈之拖拽2" />
+
+    <Button
+      android:id="@+id/button21"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ConstraintLayout" />
+
   </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>
