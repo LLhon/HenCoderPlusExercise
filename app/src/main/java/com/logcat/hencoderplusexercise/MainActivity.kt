@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.logcat.hencoderplusexercise.activity.*
+import com.logcat.hencoderplusexercise.constraintlayout.CircularRevealActivity
 import com.logcat.hencoderplusexercise.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -65,6 +66,18 @@ class MainActivity : AppCompatActivity() {
         }
         mBinding.button17.setOnClickListener {
             startActivity(Intent(this, ScalableViewActivity::class.java))
+        }
+        mBinding.button18.setOnClickListener {
+            startActivity(Intent(this, MultiTouchView1Activity::class.java))
+        }
+        mBinding.button19.setOnClickListener {
+            startActivity(Intent(this, DragListenerActivity::class.java))
+        }
+        mBinding.button20.setOnClickListener {
+            startActivity(Intent(this, ViewDragHelperActivity::class.java))
+        }
+        mBinding.button21.setOnClickListener {
+            startActivity(Intent(this, ConstraintListActivity::class.java))
         }
     }
 }

@@ -35,5 +35,7 @@ class CircleViewActivity : AppCompatActivity() {
         holderAnimator.startDelay = 1000
         holderAnimator.duration = 1500
         holderAnimator.start()
+
+        mBinding.maskView.startAnimate()
     }
 }
