@@ -26,25 +26,25 @@
       android:id="@+id/button2"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="CircularPositioning" />
+      android:text="圆形定位CircularPositioning" />
 
     <Button
       android:id="@+id/button3"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="" />
+      android:text="流式布局Flow" />
 
     <Button
       android:id="@+id/button4"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="" />
+      android:text="ConstraintSet动态修改布局" />
 
     <Button
       android:id="@+id/button5"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="" />
+      android:text="Linear" />
 
     <Button
       android:id="@+id/button6"

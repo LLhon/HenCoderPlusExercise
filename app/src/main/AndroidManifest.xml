@@ -38,6 +38,9 @@
     <activity android:name=".activity.ConstraintListActivity"/>
     <activity android:name=".constraintlayout.CircularRevealActivity"/>
     <activity android:name=".constraintlayout.CircularPositioningActivity"/>
+    <activity android:name=".constraintlayout.FlowActivity"/>
+    <activity android:name=".constraintlayout.ConstraintSetActivity"/>
+    <activity android:name=".constraintlayout.LinearActivity"/>
   </application>
 
 </manifest>
