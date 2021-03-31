@@ -36,8 +36,5 @@ class ConstraintListActivity : AppCompatActivity() {
         mBinding.button5.setOnClickListener {
             startActivity(Intent(this, LinearActivity::class.java))
         }
-        mBinding.button6.setOnClickListener {
-            startActivity(Intent(this, MultilineTextActivity::class.java))
-        }
     }
 }

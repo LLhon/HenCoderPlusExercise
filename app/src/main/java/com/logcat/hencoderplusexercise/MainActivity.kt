@@ -79,5 +79,8 @@ class MainActivity : AppCompatActivity() {
         mBinding.button21.setOnClickListener {
             startActivity(Intent(this, ConstraintListActivity::class.java))
         }
+        mBinding.button22.setOnClickListener {
+            startActivity(Intent(this, MotionListActivity::class.java))
+        }
     }
 }
