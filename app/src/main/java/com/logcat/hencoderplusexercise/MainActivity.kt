@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.logcat.hencoderplusexercise.activity.*
 import com.logcat.hencoderplusexercise.constraintlayout.CircularRevealActivity
 import com.logcat.hencoderplusexercise.databinding.ActivityMainBinding
+import com.logcat.hencoderplusexercise.leakcanary.LeakOnLocalActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -78,6 +79,9 @@ class MainActivity : AppCompatActivity() {
         }
         mBinding.button21.setOnClickListener {
             startActivity(Intent(this, ConstraintListActivity::class.java))
+        }
+        mBinding.button22.setOnClickListener {
+            startActivity(Intent(this, LeakOnLocalActivity::class.java))
         }
     }
 }

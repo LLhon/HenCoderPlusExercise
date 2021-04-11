@@ -38,6 +38,7 @@
     <activity android:name=".activity.ConstraintListActivity"/>
     <activity android:name=".constraintlayout.CircularRevealActivity"/>
     <activity android:name=".constraintlayout.CircularPositioningActivity"/>
+    <activity android:name=".leakcanary.LeakOnLocalActivity"/>
   </application>
 
 </manifest>
