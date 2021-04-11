@@ -38,6 +38,13 @@
     <activity android:name=".activity.ConstraintListActivity"/>
     <activity android:name=".constraintlayout.CircularRevealActivity"/>
     <activity android:name=".constraintlayout.CircularPositioningActivity"/>
+    <activity android:name=".constraintlayout.FlowActivity"/>
+    <activity android:name=".constraintlayout.ConstraintSetActivity"/>
+    <activity android:name=".constraintlayout.LinearActivity"/>
+    <activity android:name=".activity.MotionListActivity"/>
+    <activity android:name=".motionlayout.MotionLayoutActivity"/>
+    <activity android:name=".motionlayout.CoordinatorActivity"/>
+    <activity android:name=".motionlayout.YoutubeLikeActivity"/>
     <activity android:name=".leakcanary.LeakOnLocalActivity"/>
   </application>
 

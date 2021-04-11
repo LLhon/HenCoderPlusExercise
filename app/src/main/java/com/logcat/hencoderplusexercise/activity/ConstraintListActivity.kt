@@ -3,8 +3,8 @@ package com.logcat.hencoderplusexercise.activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.logcat.hencoderplusexercise.constraintlayout.CircularPositioningActivity
-import com.logcat.hencoderplusexercise.constraintlayout.CircularRevealActivity
+import androidx.constraintlayout.widget.ConstraintSet
+import com.logcat.hencoderplusexercise.constraintlayout.*
 import com.logcat.hencoderplusexercise.databinding.ActivityConstraintListBinding
 
 /**
@@ -28,16 +28,13 @@ class ConstraintListActivity : AppCompatActivity() {
             startActivity(Intent(this, CircularPositioningActivity::class.java))
         }
         mBinding.button3.setOnClickListener {
-            startActivity(Intent(this, AvatarViewActivity::class.java))
+            startActivity(Intent(this, FlowActivity::class.java))
         }
         mBinding.button4.setOnClickListener {
-
+            startActivity(Intent(this, ConstraintSetActivity::class.java))
         }
         mBinding.button5.setOnClickListener {
-            startActivity(Intent(this, SportViewActivity::class.java))
-        }
-        mBinding.button6.setOnClickListener {
-            startActivity(Intent(this, MultilineTextActivity::class.java))
+            startActivity(Intent(this, LinearActivity::class.java))
         }
     }
 }

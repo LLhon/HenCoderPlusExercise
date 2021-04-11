@@ -9,7 +9,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import com.logcat.hencoderplusexercise.databinding.ActivityCircularPositioningBinding
 
 /**
- *
+ * 使用圆形定位
  * Date: 2021/3/28 22:32
  * Created by LLhon
  */

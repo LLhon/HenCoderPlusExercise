@@ -20,32 +20,19 @@
       android:id="@+id/button1"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="CircularReveal" />
+      android:text="Transition" />
 
     <Button
       android:id="@+id/button2"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="圆形定位CircularPositioning" />
+      android:text="CoordinatorLayout" />
 
     <Button
       android:id="@+id/button3"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="流式布局Flow" />
-
-    <Button
-      android:id="@+id/button4"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="ConstraintSet动态修改布局" />
-
-    <Button
-      android:id="@+id/button5"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Linear" />
-
+      android:text="Youtube" />
 
   </LinearLayout>
 

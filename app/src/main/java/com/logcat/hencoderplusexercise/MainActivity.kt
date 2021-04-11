@@ -81,6 +81,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ConstraintListActivity::class.java))
         }
         mBinding.button22.setOnClickListener {
+            startActivity(Intent(this, MotionListActivity::class.java))
+        }
+        mBinding.button23.setOnClickListener {
             startActivity(Intent(this, LeakOnLocalActivity::class.java))
         }
     }

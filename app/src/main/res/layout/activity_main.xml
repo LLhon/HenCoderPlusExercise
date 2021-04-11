@@ -77,10 +77,10 @@
         android:text="属性动画-翻折View" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="属性动画-Evaluator2" />
+      android:id="@+id/button11"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="属性动画-Evaluator2" />
 
     <Button
         android:id="@+id/button12"
@@ -140,7 +140,13 @@
       android:id="@+id/button21"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="ConstraintLayout" />
+      android:text="约束布局ConstraintLayout" />
+
+    <Button
+      android:id="@+id/button22"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="过渡动画MotionLayout" />
 
     <Button
         android:id="@+id/button22"
